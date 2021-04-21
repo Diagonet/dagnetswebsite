@@ -1,4 +1,33 @@
 body {
+    font-family: Expressway;
     box-sizing: border-box;
     background: black;
+    color: white;
+}
+main {
+    margin-left: 150px;
+    padding: 0px 10px 10px 20px;
+}
+nav {
+    display: block;
+}
+a {
+    color: rgb(74, 159, 255);
+    text-decoration: none;
+}
+a:hover {
+    color: turquoise;
+}
+.sideBar {
+    height: 100%;
+    position:fixed;
+    width: 150px;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    background-color: rgb(73, 73, 73);
+}
+.sideBar a {
+    display: block;
+    padding:0px 0px 10px 10px;
 }
