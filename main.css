@@ -1,41 +1,50 @@
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 body {
-    font-family: Expressway;
-    background: black;
-    color: white;
+  font-family: Expressway;
+  background: black;
+  color: white;
 }
 main {
-    margin-left: 150px;
-    padding: 0px 10px 10px 20px;
-    width: 700px;
+  margin-left: 150px;
+  padding: 0px 10px 10px 20px;
+  width: 700px;
 }
 nav {
-    display: block;
+  display: block;
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 a:hover {
-    color: #00A8E8;
+  color: #00a8e8;
+}
+input {
+  text-align: center;
+}
+header {
+  margin-top: 20px;
+  padding: 1px 10px 10px 20px;
+  background-color: #007ea7;
 }
 .sideBar {
-    z-index: 1;
-    height: 100%;
-    position:fixed;
-    width: 150px;
-    top: 0;
-    left: 0;
-    background-color: #9E0031;
+  z-index: 1;
+  height: 100%;
+  position: fixed;
+  width: 150px;
+  top: 0;
+  left: 0;
+  background-color: #9e0031;
 }
 .sideBar a {
-    display: block;
-    padding:20px 0px 15px 10px;
+  display: block;
+  padding: 20px 0px 15px 10px;
 }
-.backgroundBlue
-{
-    background-color: #007EA7;
+.backgroundBlue {
+  background-color: #007ea7;
 }
