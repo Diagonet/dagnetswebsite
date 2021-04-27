@@ -12,6 +12,7 @@ main {
   margin-left: 150px;
   padding: 0px 10px 10px 20px;
   width: 700px;
+  text-align: justify;
 }
 nav {
   display: block;
