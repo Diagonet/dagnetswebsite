@@ -9,10 +9,10 @@ function randomGreeting() {
     greeting[Math.floor(Math.random() * greeting.length)] + ", " + name + "!";
   alert("Here is you free* random greeting:\n\n" + chosenGreeting);
 }
-$(document).ready(function () {
+function jqueryEvents() {
   $("nav a").hover(
     function () {
-      $(this).css("font-weight", "900");
+      $(this).css("font-weight", "bold");
     },
     function () {
       $(this).css("font-weight", "normal");
@@ -25,4 +25,5 @@ $(document).ready(function () {
       $(this).css("width", "200px");
     }
   });
-});
+}
+$(jqueryEvents);
