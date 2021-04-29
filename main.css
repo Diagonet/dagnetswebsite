@@ -33,6 +33,11 @@ header {
   padding: 1px 10px 10px 20px;
   background-color: #007ea7;
 }
+img {
+  display: block;
+  width: 200px;
+  margin: auto;
+}
 .sideBar {
   z-index: 1;
   height: 100%;
