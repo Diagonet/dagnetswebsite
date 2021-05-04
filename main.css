@@ -7,12 +7,22 @@ body {
   font-family: Expressway;
   background: black;
   color: white;
+  border-radius: 10%;
+}
+body,
+header,
+div,
+main {
+  border-radius: 15px;
 }
 main {
-  margin-left: 150px;
-  padding: 0px 10px 10px 20px;
+  margin-left: 190px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 5px 20px 10px 20px;
   width: 700px;
   text-align: justify;
+  background-color: #ffa400;
 }
 nav {
   display: block;
@@ -31,7 +41,12 @@ input {
 header {
   margin-top: 20px;
   padding: 1px 10px 10px 20px;
-  background-color: #007ea7;
+  background-color: #086788;
+}
+h1,
+h2,
+h3 {
+  text-shadow: 2px 2px black;
 }
 img {
   display: block;
@@ -48,17 +63,37 @@ td {
 }
 .sideBar {
   z-index: 1;
-  height: 100%;
-  position: fixed;
+  height: auto;
+  position: absolute;
   width: 150px;
-  top: 0;
-  left: 0;
+  top: 20px;
+  left: 20px;
   background-color: #9e0031;
+  padding-bottom: 10px;
 }
 .sideBar a {
   display: block;
-  padding: 20px 0px 15px 10px;
+  padding: 20px 0px 15px 15px;
 }
 .backgroundBlue {
-  background-color: #007ea7;
+  background-color: #009ffd;
+}
+.questions {
+  color: white;
+  padding: 5px 15px 15px 15px;
+  background-color: #086788;
+}
+.questionsSection {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 7px;
+}
+.questionsSection h2 {
+  text-align: left;
+}
+.mainContent {
+  margin-top: 30px;
+  background-color: black;
+  padding: 5px 15px 15px 15px;
 }
