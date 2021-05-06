@@ -26,4 +26,13 @@ function jqueryEvents() {
     }
   });
 }
+function getBitcoin() {
+  $.getJSON(
+    "https://api.coinbase.com/v2/prices/spot?currency=USD",
+    function (result) {
+      $("footer").text(`Bitcoin currently is worth USD ${result.data.amount}`);
+    }
+  );
+}
 $(jqueryEvents);
+$(getBitcoin);

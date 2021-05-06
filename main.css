@@ -43,6 +43,15 @@ header {
   padding: 1px 10px 10px 20px;
   background-color: #086788;
 }
+footer {
+  position: absolute;
+  height: 20px;
+  bottom: 1;
+  text-align: center;
+  width: 100%;
+  background-color: #9e0031;
+  margin: 0px;
+}
 h1,
 h2,
 h3 {
