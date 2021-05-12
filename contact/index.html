@@ -12,22 +12,41 @@
     <div class="sideBar">
       <nav>
         <a href="">Home</a>
-        <a href="./aboutme/">About me</a>
-        <a href="./howisdagnet/">How is Dagnet doing today?</a>
-        <a href="./scoreboard/">Check scores</a>
+        <a href="../aboutme/">About me</a>
+        <a href="../howisdagnet/">How is Dagnet doing today?</a>
+        <a href="../scoreboard/">Check scores</a>
+        <a href="../contact/">Send me a message</a>
       </nav>
     </div>
     <main>
       <h1>Contact</h1>
-      <form>
+      <form id='messageForm'>
         <label
           >Your name
           <input id="senderName" name="senderName" type="text" />
         </label>
-        <label
-          >Message
-          <textarea id="textMsg" name="textMsg"></textarea>
+
         </label>
+        <label>Preferred Ramen</label><br />
+        <label>
+          <input type="radio" id="shio" name="ramen" value="shio" />Shio
+        </label>
+        <label>
+          <input type="radio" id="shoyu" name="ramen" value="shoyu" />Shoyu
+        </label>
+        <label>
+          <input type="radio" id="shio" name="ramen" value="shio" />Miso
+        </label>
+        <label>
+          <input type="radio" id="shio" name="ramen" value="shio" />Shio
+        </label>
+        <br>
+        <label
+        >Message
+        <textarea id="textMsg" name="textMsg"></textarea>
+        <button id="sendMsg" type="submit">
+            Send
+          </button>
       </form>
     </main>
     <footer></footer>

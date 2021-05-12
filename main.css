@@ -30,6 +30,14 @@ nav {
 input,
 textarea {
   display: block;
+  margin-bottom: 15px;
+}
+input[type="radio"] {
+  display: inline;
+}
+textarea {
+  width: 400px;
+  height: 90px;
 }
 
 a {
